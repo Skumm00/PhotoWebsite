@@ -555,31 +555,55 @@ video {
   display: flex;
 }
 
-.flex-wrap {
-  flex-wrap: wrap;
+.h-screen {
+  height: 100vh;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .items-center {
   align-items: center;
 }
 
-.justify-center {
-  justify-content: center;
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
-.justify-between {
-  justify-content: space-between;
+.bg-cover {
+  background-size: cover;
 }
 
-.p-6 {
-  padding: 1.5rem;
+.bg-center {
+  background-position: center;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .font-bold {
   font-weight: 700;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }

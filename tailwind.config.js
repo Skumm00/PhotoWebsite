@@ -3,7 +3,12 @@ module.exports = {
   content: ["./pages/**/*.{html,js}"],
   mode: 'jit',
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage:{
+        'hero-body':'url(""./public/joshua.jpg")'
+      }
+    },
   },
   plugins: [],
 }
+
