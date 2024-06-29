@@ -6,17 +6,54 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="favicon.ico">
   <link rel="stylesheet" href="out.css">
-  <title>Tailwind CSS</title>
+  <title>PhotoSquare</title>
 </head>
 <body>
-  <nav class = "nav fixed">
-    <div class = "nav nav-brand"><h1 class = "bold text-white">ES</h1></div>
-  </nav>
-  <div  style="background-image: url('https://picsum.photos/3000/2000');"class=" h-screen w-full bg-cover bg-center flex items-center px-4">
-    <div class="uppercase text-center text-white font-bold">
-      <h1 class="text-7xl font-clarkson font-helvetica font-sans-serif">Amazing Photos</h1>
-      <h3 class="text-4xl">The best spot for pictures</h3>
+ 
+  
+  
+    <div  style="background-image: url('https://picsum.photos/3000/2000');"class="h-screen w-full bg-cover bg-center   ">
+
+      <div class="bg-fixed">
+        <div class="container mx-auto px-4 p-2 uppercase text-white">
+          <div class="flex items-center justify-between py-4">
+            <div>
+              <h1 class = "font-semibold tracking-tight ">PhotoSquare</h1>
+            </div>
+
+            <div class="hidden sm:flex sm:items-center">
+              <a href="#" class=" text-sm font-semibold hover:opacity-30 mr-4">Products</a>
+              <a href="#" class=" text-sm font-semibold hover:text-purple-600 mr-4">Gallery</a>
+              <a href="#" class=" text-sm font-semibold hover:text-purple-600 mr-4">Partners</a>
+              <a href="#" class=" text-sm font-semibold hover:text-purple-600">Pricing</a>
+            </div>
+
+            <div class="hidden sm:flex sm:items-center">
+              <a href="#" class=" text-sm font-semibold hover:text-purple-600 mr-4">Sign in</a>
+              <a href="#" class=" text-sm font-semibold border px-4 py-2 rounded-lg hover:text-purple-600 hover:border-purple-600">Sign up</a>
+            </div>
+
+
+          </div>
+
+          <div class="block sm:hidden bg-white border-t-2 py-2">
+            <div class="flex flex-col">
+              <a href="#" class=" text-sm font-semibold hover:text-purple-600 mb-1">Products</a>
+              <a href="#" class=" text-sm font-semibold hover:text-purple-600 mb-1">Marketplace</a>
+              <a href="#" class=" text-sm font-semibold hover:text-purple-600 mb-1">Partners</a>
+              <a href="#" class=" text-sm font-semibold hover:text-purple-600 mb-1">Pricing</a>
+              <div class="flex justify-between items-center border-t-2 pt-2">
+                <a href="#" class=" text-sm font-semibold hover:text-purple-600 mr-4">Sign in</a>
+                <a href="#" class=" text-sm font-semibold border px-4 py-1 rounded-lg hover:text-purple-600 hover:border-purple-600">Sign up</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     <div class="uppercase text-center text-white font-bold flex-items center p-4">
+          <h1 class="text-7xl font-clarkson font-helvetica font-sans-serif">Amazing Photos</h1>
+          <h3 class="text-4xl">The best spot for pictures</h3>
+        </div>
     </div>
-  </div>
 </body>
 </html>
