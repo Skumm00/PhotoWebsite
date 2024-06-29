@@ -4,8 +4,8 @@ module.exports = {
   mode: 'jit',
   theme: {
     extend: {
-      backgroundImage:{
-        'hero-body':'url(""./public/joshua.jpg")'
+      backgroundImage: {
+        'hero-body': 'url("public/joshua.jpg")'
       }
     },
   },
