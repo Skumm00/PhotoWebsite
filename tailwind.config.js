@@ -4,9 +4,9 @@ module.exports = {
   mode: 'jit',
   theme: {
     extend: {
-      backgroundImage: {
-        'hero-body': 'url("public/joshua.jpg")'
-      }
+      fontFamily: {
+        sans: ['Arimo', 'sans-serif'],
+      },
     },
   },
   plugins: [],
