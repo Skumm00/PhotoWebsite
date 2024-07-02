@@ -702,8 +702,12 @@ video {
   background-attachment: fixed;
 }
 
-.bg-right {
-  background-position: right;
+.bg-right-bottom {
+  background-position: right bottom;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
 }
 
 .p-1 {
@@ -807,6 +811,10 @@ video {
 
 .uppercase {
   text-transform: uppercase;
+}
+
+.italic {
+  font-style: italic;
 }
 
 .tracking-wider {
